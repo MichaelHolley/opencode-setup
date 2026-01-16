@@ -4,6 +4,13 @@
     "svelte": {
       "type": "local",
       "command": ["npx", "-y", "@sveltejs/mcp"]
+    },
+    "github": {
+      "type": "remote",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer <GitHub_PAT>" // Replace <GitHub_PAT> with your GitHub Personal Access Token
+      }
     }
   },
   "keybinds": {
