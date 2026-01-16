@@ -1,0 +1,33 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "svelte": {
+      "type": "local",
+      "command": ["npx", "-y", "@sveltejs/mcp"]
+    }
+  },
+  "keybinds": {
+    "session_child_cycle": "ctrl+e",
+    "session_child_cycle_reverse": "ctrl+q"
+  },
+  "agent": {
+    "build": {
+      "permission": {
+        "bash": "allow",
+        "external_directory": "ask",
+        "webfetch": "ask",
+        "edit": "allow",
+        "doom_loop": "ask"
+      }
+    },
+    "plan": {
+      "permission": {
+        "bash": "allow",
+        "external_directory": "ask",
+        "webfetch": "ask",
+        "edit": "ask",
+        "doom_loop": "ask"
+      }
+    }
+  }
+}
