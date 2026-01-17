@@ -3,19 +3,29 @@
   "mcp": {
     "svelte": {
       "type": "local",
-      "command": ["npx", "-y", "@sveltejs/mcp"]
+      "command": ["npx", "-y", "@sveltejs/mcp"],
     },
     "github": {
       "type": "remote",
       "url": "https://api.githubcopilot.com/mcp/",
       "headers": {
-        "Authorization": "Bearer <GitHub_PAT>" // Replace <GitHub_PAT> with your GitHub Personal Access Token
-      }
-    }
+        "Authorization": "Bearer <GitHub_PAT>", // Replace <GitHub_PAT> with your GitHub Personal Access Token
+      },
+    },
+    "better-auth-docs": {
+      "type": "remote",
+      "url": "https://mcp.chonkie.ai/better-auth/better-auth-builder/mcp",
+      "enabled": true,
+    },
+    "better-auth": {
+      "type": "local",
+      "command": ["npx", "-y", "@better-auth/mcp"],
+      "enabled": true,
+    },
   },
   "keybinds": {
     "session_child_cycle": "ctrl+e",
-    "session_child_cycle_reverse": "ctrl+q"
+    "session_child_cycle_reverse": "ctrl+q",
   },
   "agent": {
     "build": {
@@ -24,8 +34,8 @@
         "external_directory": "ask",
         "webfetch": "ask",
         "edit": "allow",
-        "doom_loop": "ask"
-      }
+        "doom_loop": "ask",
+      },
     },
     "plan": {
       "permission": {
@@ -33,8 +43,8 @@
         "external_directory": "ask",
         "webfetch": "ask",
         "edit": "ask",
-        "doom_loop": "ask"
-      }
-    }
-  }
+        "doom_loop": "ask",
+      },
+    },
+  },
 }
