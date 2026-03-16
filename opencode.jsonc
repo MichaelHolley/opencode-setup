@@ -1,6 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugin": ["@sveltejs/opencode"],
+  "plugin": ["@sveltejs/opencode"], // optional
   "mcp": {
     "github": {
       "type": "remote",
