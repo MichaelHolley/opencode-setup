@@ -8,9 +8,11 @@ A curated list of optional skills:
 
 `npx skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines`
 
-`npx skills add https://github.com/better-auth/skills --skill better-auth-best-practices`
+`npx skills add https://github.com/coreyhaines31/marketingskills --skill seo-audit`
 
 `npx skills add https://github.com/wshobson/agents --skill tailwind-design-system`
+
+`npx skills add https://github.com/better-auth/skills --skill better-auth-best-practices`
 
 ## Svelte bias
 
