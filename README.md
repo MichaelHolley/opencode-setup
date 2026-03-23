@@ -14,6 +14,8 @@ A curated list of optional skills:
 
 `npx skills add https://github.com/better-auth/skills --skill better-auth-best-practices`
 
+`npx skills add mattpocock/skills/grill-me`
+
 ## Svelte bias
 
 I am a big fan of Svelte, therefor some configuration may target svelte related plugins, skills and mcps.
