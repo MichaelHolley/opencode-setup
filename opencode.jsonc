@@ -2,13 +2,6 @@
   "$schema": "https://opencode.ai/config.json",
   "plugin": ["@sveltejs/opencode"], // optional
   "mcp": {
-    "github": {
-      "type": "remote",
-      "url": "https://api.githubcopilot.com/mcp/",
-      "headers": {
-        "Authorization": "Bearer <GitHub_PAT>", // Replace <GitHub_PAT> with your GitHub Personal Access Token
-      },
-    },
     "context7": {
       "type": "remote",
       "url": "https://mcp.context7.com/mcp",
@@ -17,5 +10,5 @@
   "keybinds": {
     "session_child_cycle": "ctrl+e",
     "session_child_cycle_reverse": "ctrl+q",
-  }
+  },
 }
