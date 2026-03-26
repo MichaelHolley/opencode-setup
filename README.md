@@ -6,15 +6,13 @@ This repository stores my opencode configuration, commands, skills, and other re
 
 A curated list of optional skills:
 
-`npx skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines`
+`npx skills add mattpocock/skills/grill-me`
 
-`npx skills add https://github.com/coreyhaines31/marketingskills --skill seo-audit`
+`npx skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines`
 
 `npx skills add https://github.com/wshobson/agents --skill tailwind-design-system`
 
 `npx skills add https://github.com/better-auth/skills --skill better-auth-best-practices`
-
-`npx skills add mattpocock/skills/grill-me`
 
 ## Svelte bias
 
